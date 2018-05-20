@@ -1,0 +1,270 @@
+*{
+	margin:0; padding:0; box-sizing:border-box;
+}
+body,html{
+	background:url('https://i.ytimg.com/vi/v1SabYdIlZI/maxresdefault.jpg') no-repeat center;
+	background-size:cover;
+	width:100%;
+	height:auto;
+	position:absolute;
+}
+.global-C{
+	width:85%;
+	margin:0 auto; 
+}
+header{
+	background:url('../images/bg-header.jpg') no-repeat center;
+	background-size:cover;
+}
+.mainWrapper,
+header{
+	width:100%;
+	height:60px;
+}
+#mainContainer{
+	width:100%;
+	height:60px;
+	position:relative;
+}
+#logo{
+	width:auto;
+	display:inline-block;
+	height:60px;
+}
+#logo > a{
+	color:#000;
+	font-size:1.6em;
+	font-family: 'Noto Sans', sans-serif;
+	line-height:60px;
+	text-decoration:none;
+}
+nav{
+	width:100%;
+	height:50px;
+	position: absolute;
+	left:0;
+	top:50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+nav > ul,
+#FB-sitemapLink > ul{
+	list-style:none;
+}
+nav > ul > li{
+	display:inline-block;
+	width:16.667%;
+	height:50px;
+	text-align:center;
+	border-right:1pt solid rgba(255,255,255,0.7);
+}
+nav > ul > li:last-child,
+.footerBoxes:last-child{
+	border-right:none;
+}
+nav > ul > li > a{
+	color:#fff;
+	font-size:0.95em;
+	font-family: 'Noto Sans', sans-serif;
+	line-height:50px;
+	text-decoration:none;
+	display:block;
+	transition:all 0.3s ease-in-out;	
+}
+nav > ul > li > a:hover{
+	background:#2a87ff;
+}
+
+#mainBoxWrapper{
+	width:100%;
+}
+#mainBoxContainer{
+	width:100%;
+	padding:30px 15px;
+}
+.boxes{
+	width:calc((100% - 32px) / 4);
+	height:auto;
+	display:inline-block;
+	vertical-align:top;
+	margin-right:5px;
+	margin-bottom:40px;
+	padding:7px 10px;
+	border:1px solid rgba(0,0,0,0.3);
+}
+.boxes:nth-child(4),
+.boxes:last-child{
+	margin-right:0;
+}
+.boxes > p.para,
+.boxes > h2.heading02{
+	margin-bottom:10px;
+}
+.heading02{
+	font-size:1.5em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:500;
+}
+.para{
+	font-size:0.95em;
+	font-family: 'Open Sans', sans-serif;	
+	word-spacing:1px;
+	line-height:1.5;
+	color:#867676;
+}
+.btn{
+	border:0;
+	outline:0;
+	padding:10px 15px;
+	border-radius:3px;
+	font-size:0.90em;
+	background:#487fff;
+}
+.btn > a{
+	text-decoration:none;
+	display:block;
+	color:#fff;
+	font-family: 'Open Sans', sans-serif;	
+}
+.btn > a > .fa{
+	font-size:1.2em;
+	line-height:3px;
+}
+#mainBoxContainer > h2.heading02{
+	text-transform:capitalize;
+	word-spacing:1px;
+	color:orangered;
+	line-height:60px;
+	text-align:center;
+	margin-bottom:13px;
+	width:100%;
+}
+.boxwithcontent{
+	width:calc((100% - 64px)/ 2);
+	height:auto;
+	display:inline-block;
+	margin:15px;
+	vertical-align:top;
+	padding:10px;
+}
+.boxwithcontent > p.para{
+	margin-top:10px;
+	text-align:justify;	
+}
+.footerBoxes{
+	width:calc(100% / 3);
+	height:500px;
+	float:left;
+	vertical-align:top;
+	border-right:1pt solid rgba(255,255,255,0.8);
+}
+#FB-AddressSec{
+	width:80%;
+	height:250px;
+	text-align:right;
+	padding-right:5px;
+}
+#FB-AddressSec > h2.heading02,
+#FB-contactViaForm > h2.heading02,
+#FB-sitemapLink > h2.heading02{
+	padding:12px 0px;
+	margin-bottom:15px;
+}
+.socialLinks{
+	width:100%;
+	height:60px;
+	line-height:60px;
+}
+.socialLinks > a{
+	text-decoration:none;
+	color:#f2f2f2;
+	background:#487fff;
+	display:inline-block;
+	width:25px;
+	height:25px;
+	background:#487fff;
+	border-radius:100%;
+	margin-right:5px;
+}
+address{
+	color:#fff;
+}
+.socialLinks > a > .fa{
+	display:block;
+	line-height:25px;
+	text-align:center;
+}
+#FB-contactViaForm,
+#FB-sitemapLink{
+	width:100%;
+	height:250px;
+	padding:0px 10px;
+}
+label{
+	display:block;
+	margin-bottom:8px;
+	font-size:0.95em;
+	font-family: 'Noto Sans', sans-serif;
+}
+input{
+	border:0;
+	width:80%;
+	height:30px;
+	padding-left:10px;
+	margin-bottom:8px;
+}
+textarea{
+	padding:5px 10px;
+}
+.inputField{
+	margin-bottom:10px;
+}
+input[type=submit]{
+	border:0;
+	outline:0;
+	padding:10px 15px;
+	border-radius:3px;
+	font-size:0.90em;
+	background:blue;
+	height:40px;
+	width:45%;
+	color:#fff;
+	font-size:0.95em;
+	font-family: 'Noto Sans', sans-serif;
+	transition:all 0.3s ease-in-out;
+	text-transform:capitalize;
+}
+input[type=submit]:hover{
+	background:#2a87ff;
+	cursor:pointer;
+	color:#000;
+}
+span{
+	display:block;
+	width:30px;
+	height:30px;
+	background:#487fff;
+	float:left;
+	text-align:center;
+}
+span > .fa{
+	line-height:30px;
+	color:#f2f2f2;
+}
+#FB-sitemapLink > ul > li{
+	display:block;
+	padding-top:10px;
+}
+#FB-sitemapLink > ul > li > a{
+	display:block;
+	text-decoration:none;
+	color:#fff;
+	font-size:0.95em;
+	font-family: 'Noto Sans', sans-serif;
+	padding-bottom:8px;
+}
+
+
+
